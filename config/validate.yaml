@@ -1,0 +1,36 @@
+validation:
+    max_length: 512
+    max_tgt_length: 512
+    top_p: 1.0
+    temperature: 0.4
+    precomputed_languagebind: True
+    dataset_list:
+        -
+            root: worldnet/ag                                    # root of subset
+            annotaion_path: worldnet/ag/state/action_valid.json  # path to annotations
+            modality: ['image', 'video', 'audio']                # available modalities of subset
+    modality_modes:
+        -
+            inputs: ['image']
+            targets: ['image']
+        -
+            inputs: ['video']
+            targets: ['video']
+        -
+            inputs: ['audio']
+            targets: ['audio']
+        -
+            inputs: ['image', 'audio']
+            targets: ['video']
+        -
+            inputs: ['video', 'audio']
+            targets: ['image']
+        -
+            inputs: ['image']
+            targets: ['video', 'audio']
+        -
+            inputs: ['video']
+            targets: ['image', 'audio']
+        -
+            inputs: ['image', 'video', 'audio']
+            targets: ['image', 'video', 'audio']

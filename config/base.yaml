@@ -1,0 +1,45 @@
+# ========= system global ========== #
+seed: 345
+max_length: 512  # max length of the user input prompt
+logging_step: 5
+save_interval: 5
+precomputed_languagebind: true
+
+vicuna_path: /path/to/vicuna_ckpt
+decoder_path: 
+    image: runwayml/stable-diffusion-v1-5
+    video: cerspense/zeroscope_v2_576w
+    audio: cvssp/audioldm-l-full
+languagebind_path:
+    image: LanguageBind/LanguageBind_Image
+    video: LanguageBind/LanguageBind_Video_V1.5_FT
+    audio: LanguageBind/LanguageBind_Audio_FT
+
+# ========= text-to-image alignment tuning ========== #
+num_gen_img_tokens: 16
+enable_decode: False
+
+image_num_output_tokens: 77
+video_num_output_tokens: 77
+audio_num_output_tokens: 512
+
+image_output_dim: 768
+video_output_dim: 1024
+audio_output_dim: 768
+
+# ========= reflector hyper-params ========== #
+enable_reflector: false
+freeze_reflector: false
+num_reflector_tokens: 4
+
+# ========= lora hyper-params ========== #
+enable_lora: true
+lora_r: 32
+lora_alpha: 32
+lora_dropout: 0.1
+
+freeze_llm: false
+freeze_input_proj: false
+freeze_output_proj: false
+
+mse_loss_scale: 1.0

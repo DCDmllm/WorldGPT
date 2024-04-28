@@ -1,0 +1,12 @@
+test:
+    freeze_llm: true
+    freeze_input_proj: true
+    freeze_output_proj: true
+
+    max_length: 512
+    max_tgt_length: 512
+    decode_state_length: 8
+    top_p: 1.0
+    temperature: 0.4
+
+    load_path: /path/to/worldgpt-languagebind-ckpt
