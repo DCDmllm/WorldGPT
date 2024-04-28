@@ -339,4 +339,4 @@ This repository is under [BSD 3-Clause License](https://github.com/DCDmllm/World
 
 ## Contact
 
-If you have any question about our work, please feel free to contact [Hongzhe Huang](22321202@zju.edu.cn) and [Zhiqi Ge](zhiqige2000@gmail.com).
+If you have any question about our work, please feel free to contact [Hongzhe Huang](mailto:22321202@zju.edu.cn) and [Zhiqi Ge](mailto:zhiqige2000@gmail.com).
