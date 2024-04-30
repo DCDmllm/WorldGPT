@@ -12,7 +12,7 @@ Juncheng Li<sup>1,2</sup>, Guoming Wang<sup>1</sup>, Siliang Tang<sup>1</sup>, Y
 
 \*Equal Contribution
 
-<a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> 
+<a href='https://arxiv.org/abs/2404.18202'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> 
 
 
 </div>
@@ -321,7 +321,13 @@ We provide the worldgpt-decode checkpoints for visualized inference. See [visual
 If you found this work useful, please consider giving this repository a star and citing our paper as followed:
 
 ```bibtex
-@article{
+@misc{ge2024worldgpt,
+      title={WorldGPT: Empowering LLM as Multimodal World Model}, 
+      author={Zhiqi Ge and Hongzhe Huang and Mingze Zhou and Juncheng Li and Guoming Wang and Siliang Tang and Yueting Zhuang},
+      year={2024},
+      eprint={2404.18202},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
 }
 ```
 
