@@ -89,7 +89,7 @@ Choose a pretrained checkpoint from the versions below:
 | worldgpt-decode-image            | [download](https://drive.google.com/drive/folders/13C8NZzW0FZmcguHZzAAw94k_3BRmzIdq?usp=drive_link) |
 | worldgpt-decode-multimodal       | [download](https://drive.google.com/drive/folders/16Q5j4b7Ssj1t_H9B4T-XeURSYaECujgJ?usp=drive_link) |
 
-Note that WorldGPT uses worldgpt-languagebind checkpoints by default, which output LanguageBind embeddings. Though we provide worldgpt-decode checkpoints for visualization, they do not accuately reflect the true model capabilities.
+Note that WorldGPT uses worldgpt-languagebind checkpoints by default, which output LanguageBind embeddings. Though we provide worldgpt-decode checkpoints for visualization, they do not accurately reflect the true model capabilities.
 
 ### Training
 
