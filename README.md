@@ -3,14 +3,16 @@ WorldGPT: Empowering LLM as Multimodal World Model
 </h1>
 
 <div align="center">
-Zhiqi Ge<sup>1</sup>*, Hongzhe Huang<sup>1</sup>*, Mingze Zhou<sup>1</sup>*,
+Zhiqi Ge*, Hongzhe Huang*, Mingze Zhou*,
 
-Juncheng Li<sup>1,2</sup>, Guoming Wang<sup>1</sup>, Siliang Tang<sup>1</sup>, Yueting Zhuang<sup>1</sup>
+Juncheng Li<sup>&dagger;</sup>, Guoming Wang, Siliang Tang, Yueting Zhuang
+
+Zhejiang University
+
+\*Equal Contribution. <sup>&dagger;</sup>Corresponding Authors
 
 
-<sup>1</sup>Zhejiang University, <sup>2</sup>National University of Singapore
-
-\*Equal Contribution
+**MM 2024, Oral (Top 4%)**
 
 <a href='https://arxiv.org/abs/2404.18202'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> 
 
